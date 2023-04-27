@@ -13,6 +13,9 @@ body{
 details{
     padding: 0 3vh;
 }
+summary{
+    cursor: pointer;
+}
 pre{
     font-size: 1.2rem;
     background: #FFF;

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    background: #F2F2F2;
+    font: 1.6rem / 1.5 Helvetica, sans-serif;
+    margin: 0;
+}
+details{
+    padding: 0 3vh;
+}
+pre{
+    font-size: 1.2rem;
+    background: #FFF;
+    display: block;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    border: 2px solid #EEE;
+    border-radius: 1rem;
+}
+
+section{
+    display: block;
+    margin: 3vh 0;
+    padding: 0 3vh;
+    position: relative;
+}
+
+.card{
+    font-size: 2rem;
+    background: #FFF;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 42vh;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.card.yellow{
+    background: #FAFAD2;
+    color: #795E07;
+}
